@@ -1,25 +1,13 @@
-
-
-🧠 
-🛠️ 
-📊 
-⚙️ 
-📁
-🖥️
-🤖🎛️ 
-📧
-🙏
-
 # MAFI: A Multi-Modal Attention Framework Integrating Molecular Subgraphs and Homologous Sequence Features for Drug-Target Affinity Prediction
 
 
-💡 MAFI: A Multi-Modal Attention Framework that combines protein homology sequence generation with multi-scale protein graph construction to enhance Drug-Target Affinity prediction. It uses the ESM3 model for creating homology sequences, enriching protein sequence diversity perception and improving generalization. The multi-step protein subgraph mapping captures structural info at different scales. Along with BILSTM and attention mechanisms, MAFI offers high interpretability, making it a credible tool for drug discovery.
+ MAFI: A Multi-Modal Attention Framework that combines protein homology sequence generation with multi-scale protein graph construction to enhance Drug-Target Affinity prediction. It uses the ESM3 model for creating homology sequences, enriching protein sequence diversity perception and improving generalization. The multi-step protein subgraph mapping captures structural info at different scales. Along with BILSTM and attention mechanisms, MAFI offers high interpretability, making it a credible tool for drug discovery.
 
 
-## MAFI-DTA Framework
+## 💡 MAFI-DTA Framework
 ![Model overview diagram1](https://github.com/user-attachments/assets/dee188e7-5bb6-437f-b7ef-a0b30dbe17b2)
  
-## File list
+## 🧠 File list
 vocabulary_builder.py: Used to build a vocabulary, containing the TorchVocab, Vocab, and WordVocab classes, as well as the main function to generate and save the vocabulary.
 
 utils.py: Provides a set of utility functions, including model training, prediction, and performance metric calculation.
@@ -37,7 +25,7 @@ generate_homologous.py: Contains functions for generating homologous protein seq
 These files collectively form a multi-modal attention framework for drug-target affinity prediction.
 
 
-## Dataset
+## 📁 Dataset
 For the convenience of the experiment, we utilized six datasets: Davis, KIBA, PDBbind, Toxcast, Binding DB, and Metz. ‘Davis_processed.csv’ records protein-drug molecule binding affinity data, which is used for model training and validation. ‘KIBA_processed.csv’ integrates multi-source data and records ligand-receptor protein binding constants. ‘PDBbind_processed.csv’ provides three-dimensional structures and binding affinity data for protein-ligand complexes. ‘Toxcast_processed.csv’ covers toxicological data for various chemicals. ‘BindingDD_processed.csv’ contains binding data for protein-ligand complexes. ‘Metz_processed.csv’ is used for toxicity prediction studies of compounds.
 Multiple datasets fully demonstrate the model's generalization capability.
 
@@ -46,18 +34,18 @@ Before commencing model training, we employed the ESM3 model to predict contact 
 The generated protein-ligand complex contact maps should be properly stored in a folder named ‘{dataset_name}_npy_contact_maps’ to enable quick and accurate access and reading during model training, ensuring the efficiency and consistency of the entire model training process and laying a solid foundation for improving model performance.
 
 
-## Run Code
+## 🛠️ Run Code
 ```
 python main.py 
 ```
 
-## Requirements
+## 🖥️ Requirements
 You'll need to run the following commands in order to run the codes
 conda env create -f requirements.yml
 it will download all the required libraries
 conda activate mafi
 The code file can now be run.
 
-## Citation
+## 🤖 Citation
 
 
