@@ -5,7 +5,8 @@ MAFI: A Multi-Modal Attention Framework that combines protein homology sequence 
 
 
 ## Framework
-![MAFI-DTA Framework]![Model overview diagram1](https://github.com/user-attachments/assets/dee188e7-5bb6-437f-b7ef-a0b30dbe17b2)
+![Model overview diagram1](https://github.com/user-attachments/assets/dee188e7-5bb6-437f-b7ef-a0b30dbe17b2)
+![MAFI-DTA Framework]
 
  
 ## File list
