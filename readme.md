@@ -41,9 +41,13 @@ python main.py
 
 ## 🖥️ Requirements
 You'll need to run the following commands in order to run the codes
+
 conda env create -f requirements.yml
+
 it will download all the required libraries
+
 conda activate mafi
+
 The code file can now be run.
 
 ## 🤖 Citation
