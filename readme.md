@@ -5,7 +5,9 @@
 
 
 ## 💡 MAFI-DTA Framework
-![Model overview diagram1]
+![Model overview diagram1](https://github.com/user-attachments/assets/fe2c6518-9064-4976-80d9-e328be8cd298)
+
+
 The key components of the MAFI model are as follows:
 
 (1) Homologous Sequence Enhancement  
