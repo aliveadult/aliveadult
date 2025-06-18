@@ -10,16 +10,16 @@
 
 The key components of the MAFI model are as follows:
 
-(1) Homologous Sequence Enhancement  
+(1) 💊Homologous Sequence Enhancement  
 Using the ESM3 model to generate homologous sequences of proteins and fuse them into enhanced feature vectors. This enriches the model's perception of protein sequence variability, enhances its generalisation ability for different protein structures, and aids in accurately identifying key amino acid residues and their interaction patterns.  
 
-(2) BILSTM and Attention Mechanism  
+(2) ⚛️BILSTM and Attention Mechanism  
 Processing sequence data to capture long-range dependencies. BILSTM captures contextual information, while the attention mechanism highlights important sequence regions, enhancing the model's understanding of sequence data and its interpretability in practical applications.
 
-(3) Cross-Modal Graph Attention Mechanism  
+(3) ⚙️Cross-Modal Graph Attention Mechanism  
 Fuses molecular graph and protein subgraph features, using a multi-head attention mechanism to dynamically allocate feature weights from multiple perspectives, focusing on key features to achieve effective integration of cross-modal features.
 
-(4) Graph Neural Network
+(4) 🎯Graph Neural Network
 Both the molecular graph and protein subgraph neural networks utilise graph neural networks to extract structural features. The molecular graph neural network uses GINConv layers and batch normalisation layers to extract molecular topological features, and employs global pooling to aggregate node features into graph-level features. Protein subgraph neural networks construct protein subgraph mappings with different strides to extract local and global features of proteins. Together, they provide the model with a deep understanding of drug and target structures.
 
 These modules collaborate to enable the model to accurately predict drug-target affinity.
