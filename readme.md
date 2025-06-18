@@ -4,10 +4,8 @@
 MAFI: A Multi-Modal Attention Framework that combines protein homology sequence generation with multi-scale protein graph construction to enhance Drug-Target Affinity prediction. It uses the ESM3 model for creating homology sequences, enriching protein sequence diversity perception and improving generalization. The multi-step protein subgraph mapping captures structural info at different scales. Along with BILSTM and attention mechanisms, MAFI offers high interpretability, making it a credible tool for drug discovery.
 
 
-## Framework
+## MAFI-DTA Framework
 ![Model overview diagram1](https://github.com/user-attachments/assets/dee188e7-5bb6-437f-b7ef-a0b30dbe17b2)
-![MAFI-DTA Framework]
-
  
 ## File list
 vocabulary_builder.py: Used to build a vocabulary, containing the TorchVocab, Vocab, and WordVocab classes, as well as the main function to generate and save the vocabulary.
