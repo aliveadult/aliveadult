@@ -34,11 +34,6 @@ Before commencing model training, we employed the ESM3 model to predict contact 
 The generated protein-ligand complex contact maps should be properly stored in a folder named ‘{dataset_name}_npy_contact_maps’ to enable quick and accurate access and reading during model training, ensuring the efficiency and consistency of the entire model training process and laying a solid foundation for improving model performance.
 
 
-## 🛠️ Run Code
-```
-python main.py 
-```
-
 ## 🖥️ Requirements
 You'll need to run the following commands in order to run the codes
 ```
@@ -49,6 +44,11 @@ it will download all the required libraries
 conda activate mafi
 ```
 The code file can now be run.
+
+## 🛠️ Run Code
+```
+python main.py 
+```
 
 ## 🤖 Citation
 
