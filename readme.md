@@ -6,6 +6,7 @@
 
 ## 💡 MAFI-DTA Framework
 ![Model overview diagram1]
+The key components of the MAFI model are as follows:
 
 (1) Homologous Sequence Enhancement  
 Using the ESM3 model to generate homologous sequences of proteins and fuse them into enhanced feature vectors. This enriches the model's perception of protein sequence variability, enhances its generalisation ability for different protein structures, and aids in accurately identifying key amino acid residues and their interaction patterns.  
