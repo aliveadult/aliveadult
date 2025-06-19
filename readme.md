@@ -2,7 +2,7 @@
 
 
 ## 💡 MAFI-DTA Framework
-![Uploading Structural diagram.png…]()
+![Structural diagram](https://github.com/user-attachments/assets/2168313e-73cc-46f6-80b3-a18caed01c26)
 MAFI: A Multi-Modal Attention Framework that combines protein homology sequence generation with multi-scale protein graph construction to enhance Drug-Target Affinity prediction. It uses the ESM3 model for creating homology sequences, enriching protein sequence diversity perception and improving generalization. The multi-step protein subgraph mapping captures structural info at different scales. Along with BILSTM and attention mechanisms, MAFI offers high interpretability, making it a credible tool for drug discovery.
 
 
