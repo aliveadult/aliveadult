@@ -39,7 +39,7 @@ SeqMG-RPI was developed on a Linux environment with CUDA 12.4
 Hardware: Two NVIDIA GeForce RTX 4090（24G）
 
 
-## 🖥️ Requirements
+## 🖥️ Environment Setup
 You'll need to run the following commands in order to run the codes
 ```
 conda env create -f requirements.yml
