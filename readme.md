@@ -74,7 +74,7 @@ pip install fair-esm
 pip install git+https://github.com/facebookresearch/esm.git
 ```
 
-If you need to use a specific version of the ESM model, it will be automatically downloaded when you run the code for the first time. If the automatic download fails, you can manually download the model file from the official ESM model repository and place it in the appropriate directory.
+If you need to use a specific version of the ESM model, it will be automatically downloaded when you run the code for the first time. If the automatic download fails, you can manually download the model file from the official ESM model repository and place it in the appropriate directory.This section is mainly used to generate protein contact diagrams for easy input into the model. Of course, you can also use the contact diagram files provided.
 
 Next,you need to follow the same steps to download the corresponding esm3 weight file in 
 
