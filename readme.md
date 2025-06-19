@@ -38,17 +38,38 @@ SeqMG-RPI was developed on a Linux environment with CUDA 12.4
 
 Hardware: Two NVIDIA GeForce RTX 4090（24G）
 
-
-## 🖥️ Environment Setup
+## 🖥 Environment Setup
 You'll need to run the following commands in order to run the codes
 ```
-conda env create -f requirements.yml
+conda env create -f requirements.yml   # Create environment and install dependencies
 ```
 it will download all the required libraries
 ```
-conda activate mafi
+conda activate mafi  # Activate environment mafi
 ```
 The code file can now be run.
+
+## 🖥️ Install ESM Model
+
+If you want to install the ESM model, you can use the following command:
+
+```
+pip install fair-esm
+```
+
+```
+pip install git+https://github.com/facebookresearch/esm.git
+```
+
+If you need to use a specific version of the ESM model, it will be automatically downloaded when you run the code for the first time. If the automatic download fails, you can manually download the model file from the official ESM model repository and place it in the appropriate directory.
+
+Next,you need to follow the same steps to download the corresponding esm3 weight file in 
+
+```
+https://hf-mirror.com/EvolutionaryScale/esm3-sm-open-v1/tree/main/data
+```
+so that you can generate esm3 for homologous use later.
+
 
 ## 🛠️ Run Code
 ```
