@@ -5,7 +5,8 @@
 
 
 ## 💡 MAFI-DTA Framework
-![Model overview diagram1]
+![Model overview diagram1](https://github.com/user-attachments/assets/e097c2c4-850e-4f9a-90f1-e98aa01f7943)
+
  
 ## 🧠 File list
 vocabulary_builder.py: Used to build a vocabulary, containing the TorchVocab, Vocab, and WordVocab classes, as well as the main function to generate and save the vocabulary.
