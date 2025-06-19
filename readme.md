@@ -47,7 +47,7 @@ Before commencing model training, we employed the ESM3 model to predict contact 
 The generated protein-ligand complex contact maps should be properly stored in a folder named ‘{dataset_name}_npy_contact_maps’ to enable quick and accurate access and reading during model training, ensuring the efficiency and consistency of the entire model training process and laying a solid foundation for improving model performance.
 
 ## ✨ Operating System
-SeqMG-RPI was developed on a Linux environment with CUDA 12.4
+MAFI was developed on a Linux environment with CUDA 12.4
 
 Hardware: Two NVIDIA GeForce RTX 4090（24G）
 
