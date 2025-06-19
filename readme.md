@@ -57,7 +57,7 @@ You'll need to run the following commands in order to run the codes
 ```
 conda env create -f requirements.yml   # Create environment and install dependencies
 ```
-it will download all the required libraries
+it will download all the required libraries。Of course, you can also download it manually, but this is not recommended here.
 ```
 conda activate mafi  # Activate environment mafi
 ```
