@@ -61,7 +61,6 @@ it will download all the required libraries。Of course, you can also download i
 ```
 conda activate mafi  # Activate environment mafi
 ```
-The code file can now be run.
 
 ## 🔗 Install ESM Model
 
@@ -84,6 +83,7 @@ https://hf-mirror.com/EvolutionaryScale/esm3-sm-open-v1/tree/main/data
 ```
 This allows you to use it to generate protein homologous sequences.
 
+The code file can now be run.
 
 ## 🖥️ Run Code
 ```
