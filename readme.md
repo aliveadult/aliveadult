@@ -28,7 +28,7 @@ These files collectively form a multi-modal attention framework for drug-target 
 ## 📁 Dataset
 To ensure the accuracy of the model, we utilized six datasets: Davis, KIBA, PDBbind, Toxcast, Binding DB, and Metz. 
 
-‘Davis_processed.csv’ records protein-drug molecule binding affinity data, which is used for model training and validation. 
+"Davis_processed.csv" records protein-drug molecule binding affinity data, which is used for model training and validation. 
 
 ‘KIBA_processed.csv’ integrates multi-source data and records ligand-receptor protein binding constants. 
 
@@ -36,7 +36,7 @@ To ensure the accuracy of the model, we utilized six datasets: Davis, KIBA, PDBb
 
 ‘Toxcast_processed.csv’ covers toxicological data for various chemicals. 
 
-‘BindingDB_processed.csv’ contains binding data for protein-ligand complexes. 
+"BindingDB_processed.csv" contains binding data for protein-ligand complexes. 
 
 ‘Metz_processed.csv’ is used for toxicity prediction studies of compounds.
 
